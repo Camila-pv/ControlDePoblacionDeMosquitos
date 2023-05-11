@@ -39,7 +39,7 @@ x0 = 0
 y0 = 10
 h = 0.05
 xfin = 12
-sol = int((xfin - x0)/h)
+sol = int((xfin - x0)/h)+1
 
 print("Escenario A")
 M_A = [10.5, 10, 10.5]
